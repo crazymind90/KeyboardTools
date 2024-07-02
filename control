@@ -1,0 +1,9 @@
+Package: com.crazymind90.keyboardtools
+Name: KeyboardTools
+Depends: mobilesubstrate
+Version: 1.4
+Architecture: iphoneos-arm64
+Description: More tools on your keyboard - Dissmiss,Copy,Paste,Cut,Select and Select all
+Maintainer: @CrazyMind90
+Author: @CrazyMind90
+Section: Tweaks

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+mainPath=""
+if [ -e "/usr/lib/libroothide.dylib" ]; then
+   echo "RootHide detected ...";
+else
+   echo "Dopamine detected ...";
+   mainPath="/var/jb";
+fi
+
+ldid -s $mainPath/Library/MobileSubstrate/DynamicLibraries/KeyboardTools.dylib $mainPath/Library/MobileSubstrate/DynamicLibraries/KeyboardTools.dylib
+
+
